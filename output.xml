@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.4 on win32)" generated="20190809 14:39:50.960">
+<suite id="s1" name="Baidu" source="D:\software\pycharm\Robot\TestRobot\baidu.robot">
+<test id="s1-t1" name="test01">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://magicube.moredian.com/#/login</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20190809 14:39:51.181" level="INFO">Opening browser 'chrome' to base url 'https://magicube.moredian.com/#/login'.</msg>
+<status status="PASS" starttime="20190809 14:39:51.181" endtime="20190809 14:39:58.760"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20190809 14:39:59.761" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20190809 14:39:58.761" endtime="20190809 14:39:59.761"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="app"]/div[1]/div/div[2]/div[3]/div/div[2]/div/input</arg>
+<arg>18368387155</arg>
+</arguments>
+<msg timestamp="20190809 14:39:59.762" level="INFO">Typing text '18368387155' into text field 'xpath=//*[@id="app"]/div[1]/div/div[2]/div[3]/div/div[2]/div/input'.</msg>
+<status status="PASS" starttime="20190809 14:39:59.762" endtime="20190809 14:40:00.056"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@placeholder="请输入登录密码"]</arg>
+</arguments>
+<msg timestamp="20190809 14:40:00.056" level="INFO">Clicking element 'xpath=//*[@placeholder="请输入登录密码"]'.</msg>
+<status status="PASS" starttime="20190809 14:40:00.056" endtime="20190809 14:40:00.155"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="app"]/div[1]/div/div[2]/div[4]/div/div[2]/div/input</arg>
+<arg>Md123456</arg>
+</arguments>
+<msg timestamp="20190809 14:40:00.156" level="INFO">Typing text 'Md123456' into text field 'xpath=//*[@id="app"]/div[1]/div/div[2]/div[4]/div/div[2]/div/input'.</msg>
+<status status="PASS" starttime="20190809 14:40:00.155" endtime="20190809 14:40:00.330"></status>
+</kw>
+<kw name="Get Title" library="Selenium2Library">
+<doc>Returns the title of current page.</doc>
+<assign>
+<var>${title_1}</var>
+</assign>
+<msg timestamp="20190809 14:40:00.341" level="INFO">${title_1} = 魔方智能办公平台</msg>
+<status status="PASS" starttime="20190809 14:40:00.330" endtime="20190809 14:40:00.341"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="app"]/div[1]/div/div[2]/div[5]</arg>
+</arguments>
+<msg timestamp="20190809 14:40:00.341" level="INFO">Clicking element 'xpath=//*[@id="app"]/div[1]/div/div[2]/div[5]'.</msg>
+<status status="PASS" starttime="20190809 14:40:00.341" endtime="20190809 14:40:00.434"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20190809 14:40:02.435" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20190809 14:40:00.434" endtime="20190809 14:40:02.435"></status>
+</kw>
+<kw name="Get Title" library="Selenium2Library">
+<doc>Returns the title of current page.</doc>
+<assign>
+<var>${title_2}</var>
+</assign>
+<msg timestamp="20190809 14:40:02.445" level="INFO">${title_2} = 魔方智能办公平台</msg>
+<status status="PASS" starttime="20190809 14:40:02.435" endtime="20190809 14:40:02.445"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20190809 14:40:02.445" endtime="20190809 14:40:05.307"></status>
+</kw>
+<doc>测试淘宝</doc>
+<status status="PASS" starttime="20190809 14:39:51.180" endtime="20190809 14:40:05.307" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20190809 14:39:50.968" endtime="20190809 14:40:05.309"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Baidu">Baidu</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
