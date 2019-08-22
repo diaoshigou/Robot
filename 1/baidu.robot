@@ -22,4 +22,3 @@ test01
     Sleep     2
     ${title_2}    Get Title
     Close browser
-12313132132
