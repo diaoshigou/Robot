@@ -1,11 +1,11 @@
 from selenium import webdriver
 import time
-import unittest
 
+brower = webdriver.Firefox()
+brower.get("http://www.baidu.com")
 
-try:
-    driver.find_element_by_xpath("xxx x").is_displayed()
-except:
-    print("未找到元素")
-else:
-    print("元素存在")
+brower.find_element_by_id('kw').send_keys('selenium')
+brower.find_element_by_id('su').click()
+
+time.sleep(3)
+brower.close()
