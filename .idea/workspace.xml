@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00068d9c-2e84-4e46-bfae-9a977462a0e3" name="Default" comment="测试提交">
-      <change afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Robot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Robot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/123.py" beforeDir="false" afterPath="$PROJECT_DIR$/123.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/123/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +12,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Robot$test.coverage" NAME="test Coverage Results" MODIFIED="1568259954461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
+    <SUITE FILE_PATH="coverage/Robot$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1568212131168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
+    <SUITE FILE_PATH="coverage/Robot$Unittests_for_test_LearnElement.coverage" NAME="Unittests for test.LearnElement Coverage Results" MODIFIED="1568212104368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
     <SUITE FILE_PATH="coverage/Robot$123.coverage" NAME="123 Coverage Results" MODIFIED="1567683069399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -22,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/123.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="171">
               <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -32,12 +32,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestRobot/test.py">
+        <entry file="file://$PROJECT_DIR$/123/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="114">
+              <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,6 +61,7 @@
         <option value="$PROJECT_DIR$/TestRobot/baidu.robot" />
         <option value="$PROJECT_DIR$/123.py" />
         <option value="$PROJECT_DIR$/TestRobot/test.py" />
+        <option value="$PROJECT_DIR$/123/test.py" />
       </list>
     </option>
   </component>
@@ -111,7 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.123">
+  <component name="RunManager" selected="Python.test">
     <configuration name="登陆" type="DEMO_RUN_CONFIGURATION" factoryName="Robot Framework" temporary="true">
       <option name="INTERPRETER_OPTIONS" value=" -m robot.run  -t &quot;登陆&quot;" />
       <option name="INTERPRETER_NAME" value="python" />
@@ -120,26 +121,6 @@
       <option name="ENV_PATH" value="$PROJECT_DIR$/venv/bin" />
       <option name="envPATH" value="$PROJECT_DIR$/venv/bin" />
       <option name="testCaseName" value="登陆" />
-      <module name="" />
-    </configuration>
-    <configuration name="test01" type="DEMO_RUN_CONFIGURATION" factoryName="Robot Framework" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value=" -m robot.run  -t &quot;test01&quot;" />
-      <option name="INTERPRETER_NAME" value="python" />
-      <option name="textField1" value="TestRobot/baidu.robot" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="ENV_PATH" value="$PROJECT_DIR$/venv/bin" />
-      <option name="envPATH" value="$PROJECT_DIR$/venv/bin" />
-      <option name="testCaseName" value="test01" />
-      <module name="" />
-    </configuration>
-    <configuration name="test02" type="DEMO_RUN_CONFIGURATION" factoryName="Robot Framework" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value=" -m robot.run  -t &quot;test02&quot;" />
-      <option name="INTERPRETER_NAME" value="python" />
-      <option name="textField1" value="TestRobot/baidu.robot" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="ENV_PATH" value="$PROJECT_DIR$/venv/bin" />
-      <option name="envPATH" value="$PROJECT_DIR$/venv/bin" />
-      <option name="testCaseName" value="test02" />
       <module name="" />
     </configuration>
     <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -164,11 +145,69 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Robot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/123" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/123/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test.LearnElement" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Robot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/123" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.LearnElement&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Robot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/123" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/123/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.123" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python tests.Unittests for test.LearnElement" />
+      <item itemvalue="Python tests.Unittests in test.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python tests.Unittests in test.py" />
+        <item itemvalue="Python tests.Unittests for test.LearnElement" />
         <item itemvalue="Python.123" />
       </list>
     </recent_temporary>
@@ -188,7 +227,8 @@
       <workItem from="1567740062230" duration="18000" />
       <workItem from="1567774379342" duration="620000" />
       <workItem from="1567847418373" duration="597000" />
-      <workItem from="1568210675681" duration="290000" />
+      <workItem from="1568210675681" duration="2341000" />
+      <workItem from="1568257646010" duration="2121000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1565349111650</created>
@@ -225,21 +265,44 @@
       <option name="project" value="LOCAL" />
       <updated>1567671650028</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="测试提交">
+      <created>1568210973211</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568210973211</updated>
+    </task>
+    <task id="LOCAL-00007" summary="测试提交">
+      <created>1568211134442</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568211134444</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_LearnElement - 2019.09.11 at 22h 28m 25s.xml">
+      <configuration name="Unittests for test.LearnElement" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2019.09.11 at 22h 28m 52s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3096000" />
+    <option name="totallyTimeSpent" value="7268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26652452" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26918977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3277512" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32725322" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -271,9 +334,10 @@
     <entry file="file://$PROJECT_DIR$/log.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestRobot/test.py" />
     <entry file="file://$PROJECT_DIR$/123.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="171">
           <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
@@ -281,12 +345,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestRobot/test.py">
+    <entry file="file://$PROJECT_DIR$/123/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="114">
+          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
