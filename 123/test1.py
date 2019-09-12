@@ -15,33 +15,10 @@ brower.find_element_by_xpath('/html/body/div[1]/div[1]/div/div[2]/div[5]/div').c
 time.sleep(2)
 print("1、登陆成功")
 
-#跳转个人中心
-brower.find_element_by_xpath('/html/body/div[1]/div[1]/div[1]/div/div[3]').click()
-brower.find_element_by_xpath('/html/body/div[3]/ul/li[1]').click()
-time.sleep(2)
-
-#跳转回魔蓝
-brower.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div/div/div/div[1]/div/div[2]/div[2]/div').click()
-time.sleep(2)
-
-#跳转账号设置-修改资料
-brower.find_element_by_xpath('/html/body/div[1]/div[1]/div[1]/div/div[3]').click()
-brower.find_element_by_xpath('/html/body/div[3]/ul/li[2]').click()
-time.sleep(1)
-
-#跳转更换手机号码
-brower.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div[1]/div/div[2]/div[1]/div[2]/a').click()
-time.sleep(1)
-
-#跳转重置登录密码
-brower.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div[1]/div/div[2]/div[1]/div[3]/a').click()
-time.sleep(1)
-
-
 #跳转我的机构
 brower.find_element_by_xpath('/html/body/div[1]/div[1]/div[1]/div/div[3]').click()
 brower.find_element_by_xpath('/html/body/div[3]/ul/li[3]').click()
-time.sleep(2)
+time.sleep(3)
 
 #搜索机构
 brower.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/input').click()
@@ -54,24 +31,3 @@ brower.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div/div/div[1]/div
 time.sleep(1)
 # brower.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/table/tr[1]/td[5]/div/div[3]').click()
 
-
-
-
-
-
-
-
-
-
-
-
-
-#退出账号
-brower.find_element_by_xpath('/html/body/div[1]/div[1]/div[1]/div/div[3]').click()
-brower.find_element_by_xpath('/html/body/div[3]/ul/li[4]').click()
-
-
-
-
-
-# brower.close()
