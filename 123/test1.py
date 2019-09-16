@@ -29,5 +29,10 @@ brower.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div
 time.sleep(1)
 brower.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[1]/i').click()    #清除搜索内容
 time.sleep(1)
+
 # brower.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/table/tr[1]/td[5]/div/div[3]').click()
 
+if brower.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/table/tr[15]/td[1]/div'):
+    print("机构已满")
+else:
+    brower.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div/div/div[1]/div[2]/div[1]').click()
