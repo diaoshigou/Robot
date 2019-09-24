@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="00068d9c-2e84-4e46-bfae-9a977462a0e3" name="Default" comment="测试提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123.py" beforeDir="false" afterPath="$PROJECT_DIR$/123.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/123/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/123/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/123/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/123/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/123/test1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,22 +15,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Robot$test.coverage" NAME="test Coverage Results" MODIFIED="1568859502978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
+    <SUITE FILE_PATH="coverage/Robot$test.coverage" NAME="test Coverage Results" MODIFIED="1569309802918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
     <SUITE FILE_PATH="coverage/Robot$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1568212131168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
     <SUITE FILE_PATH="coverage/Robot$Unittests_for_test_LearnElement.coverage" NAME="Unittests for test.LearnElement Coverage Results" MODIFIED="1568212104368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
-    <SUITE FILE_PATH="coverage/Robot$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1569224377582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
-    <SUITE FILE_PATH="coverage/Robot$123.coverage" NAME="123 Coverage Results" MODIFIED="1567683069399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Robot$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1569313611311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
+    <SUITE FILE_PATH="coverage/Robot$123.coverage" NAME="123 Coverage Results" MODIFIED="1569292037627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/123.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -36,10 +35,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/123/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1159">
-              <caret line="61" selection-start-line="61" selection-end-line="66" selection-end-column="12" />
+            <state relative-caret-position="427">
+              <caret line="226" lean-forward="true" selection-start-line="226" selection-end-line="226" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#1#14#0" expanded="true" />
+                <element signature="e#393#2961#0" />
+                <element signature="e#2967#4312#0" />
+                <element signature="e#4181#4721#0" />
+                <element signature="e#4426#6572#0" />
+                <element signature="e#7676#10028#0" />
               </folding>
             </state>
           </provider>
@@ -49,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/123/test1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
-              <caret line="48" column="106" selection-start-line="48" selection-start-column="106" selection-end-line="48" selection-end-column="106" />
+              <caret line="62" column="103" lean-forward="true" selection-start-line="31" selection-end-line="62" selection-end-column="103" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -73,10 +77,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TestRobot/baidu.robot" />
-        <option value="$PROJECT_DIR$/123.py" />
         <option value="$PROJECT_DIR$/TestRobot/test.py" />
-        <option value="$PROJECT_DIR$/123/test.py" />
+        <option value="$PROJECT_DIR$/123.py" />
         <option value="$PROJECT_DIR$/123/test1.py" />
+        <option value="$PROJECT_DIR$/123/test.py" />
       </list>
     </option>
   </component>
@@ -235,9 +239,9 @@
       <list>
         <item itemvalue="Python.test1" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.123" />
         <item itemvalue="Python tests.Unittests in test.py" />
         <item itemvalue="Python tests.Unittests for test.LearnElement" />
-        <item itemvalue="Python.123" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +266,8 @@
       <workItem from="1568687158387" duration="209000" />
       <workItem from="1568858424307" duration="5663000" />
       <workItem from="1568965697647" duration="598000" />
-      <workItem from="1569210714535" duration="4593000" />
+      <workItem from="1569210714535" duration="4617000" />
+      <workItem from="1569287238364" duration="14592000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1565349111650</created>
@@ -341,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568879073219</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="测试提交">
+      <created>1569232517823</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1569232517824</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -353,23 +365,23 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26049000" />
+    <option name="totallyTimeSpent" value="40665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28411514" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28731343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.32725322" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.32725322" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010661" side_tool="true" weight="0.32725322" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50159913" side_tool="true" weight="0.32725322" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.36266094" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -398,18 +410,20 @@
     <entry file="file://$PROJECT_DIR$/TestRobot/test.py" />
     <entry file="file://$PROJECT_DIR$/123.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/123/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2508" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/123/test1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="48" column="106" selection-start-line="48" selection-start-column="106" selection-end-line="48" selection-end-column="106" />
+          <caret line="62" column="103" lean-forward="true" selection-start-line="31" selection-end-line="62" selection-end-column="103" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -418,10 +432,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/123/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="61" selection-start-line="61" selection-end-line="66" selection-end-column="12" />
+        <state relative-caret-position="427">
+          <caret line="226" lean-forward="true" selection-start-line="226" selection-end-line="226" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#1#14#0" expanded="true" />
+            <element signature="e#393#2961#0" />
+            <element signature="e#2967#4312#0" />
+            <element signature="e#4181#4721#0" />
+            <element signature="e#4426#6572#0" />
+            <element signature="e#7676#10028#0" />
           </folding>
         </state>
       </provider>

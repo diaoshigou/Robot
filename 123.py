@@ -1,11 +1,5 @@
-from selenium import webdriver
-import time
 
-brower = webdriver.Firefox()
-brower.get("http://www.baidu.com")
+import random
 
-brower.find_element_by_id('kw').send_keys('selenium')
-brower.find_element_by_id('su').click()
-
-time.sleep(3)
-brower.close()
+name = str("管理员")+str(random.randint(10000,99999))
+print(name)
