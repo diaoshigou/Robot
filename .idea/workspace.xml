@@ -14,10 +14,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Robot$test.coverage" NAME="test Coverage Results" MODIFIED="1569376378871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
+    <SUITE FILE_PATH="coverage/Robot$test.coverage" NAME="test Coverage Results" MODIFIED="1569480850951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
     <SUITE FILE_PATH="coverage/Robot$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1568212131168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
     <SUITE FILE_PATH="coverage/Robot$Unittests_for_test_LearnElement.coverage" NAME="Unittests for test.LearnElement Coverage Results" MODIFIED="1568212104368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
-    <SUITE FILE_PATH="coverage/Robot$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1569398866118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
+    <SUITE FILE_PATH="coverage/Robot$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1569478567045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
     <SUITE FILE_PATH="coverage/Robot$123.coverage" NAME="123 Coverage Results" MODIFIED="1569292037627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -34,14 +34,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/123/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="280" column="23" lean-forward="true" selection-start-line="225" selection-end-line="280" selection-end-column="23" />
+            <state relative-caret-position="190">
+              <caret line="198" column="107" lean-forward="true" selection-start-line="198" selection-start-column="107" selection-end-line="198" selection-end-column="107" />
               <folding>
                 <element signature="e#400#2951#0" />
                 <element signature="e#2981#4317#0" />
                 <element signature="e#4346#4899#0" />
                 <element signature="e#4929#7630#0" />
                 <element signature="e#7668#10020#0" />
+                <element signature="e#10082#16075#0" />
+                <element signature="e#10051#16648#0" />
+                <element signature="e#22748#24109#0" />
               </folding>
             </state>
           </provider>
@@ -51,12 +54,9 @@
         <entry file="file://$PROJECT_DIR$/123/test1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="463">
-              <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <element signature="e#1295#7462#0" />
-                <element signature="e#7921#13929#0" />
-                <element signature="e#13928#15812#0" />
               </folding>
             </state>
           </provider>
@@ -96,7 +96,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,6 +112,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -132,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test1">
+  <component name="RunManager" selected="Python.test">
     <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Robot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,8 +238,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test1" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.test1" />
         <item itemvalue="Python.123" />
         <item itemvalue="Python tests.Unittests in test.py" />
         <item itemvalue="Python tests.Unittests for test.LearnElement" />
@@ -269,7 +269,8 @@
       <workItem from="1568965697647" duration="598000" />
       <workItem from="1569210714535" duration="4617000" />
       <workItem from="1569287238364" duration="14785000" />
-      <workItem from="1569375686142" duration="12832000" />
+      <workItem from="1569375686142" duration="12861000" />
+      <workItem from="1569476455536" duration="4321000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1565349111650</created>
@@ -369,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569318749720</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="测试提交">
+      <created>1569405264252</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1569405264252</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -381,23 +389,23 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53690000" />
+    <option name="totallyTimeSpent" value="58040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29051173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29371002" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.32725322" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" visible="true" weight="0.32725322" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50159913" side_tool="true" weight="0.32725322" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.32725322" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.36266094" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -438,14 +446,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/123/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="280" column="23" lean-forward="true" selection-start-line="225" selection-end-line="280" selection-end-column="23" />
+        <state relative-caret-position="190">
+          <caret line="198" column="107" lean-forward="true" selection-start-line="198" selection-start-column="107" selection-end-line="198" selection-end-column="107" />
           <folding>
             <element signature="e#400#2951#0" />
             <element signature="e#2981#4317#0" />
             <element signature="e#4346#4899#0" />
             <element signature="e#4929#7630#0" />
             <element signature="e#7668#10020#0" />
+            <element signature="e#10082#16075#0" />
+            <element signature="e#10051#16648#0" />
+            <element signature="e#22748#24109#0" />
           </folding>
         </state>
       </provider>
@@ -453,12 +464,9 @@
     <entry file="file://$PROJECT_DIR$/123/test1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
-          <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#1295#7462#0" />
-            <element signature="e#7921#13929#0" />
-            <element signature="e#13928#15812#0" />
           </folding>
         </state>
       </provider>
