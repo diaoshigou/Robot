@@ -211,17 +211,17 @@ def creatGroup():   # Selenium12345
         '//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[1]/div[1]/div[2]/div/input').send_keys(str("Selenium")+str(random.randint(10000, 99999)))
     brower.find_element_by_xpath(
         '//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[2]/div/div[2]/div/div[1]/i').click()  # 选择全员
-    # brower.find_element_by_xpath('//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[2]/div/div[2]/div/div[2]/i').click()  # 选择指定范围
-    # brower.find_element_by_xpath('//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[3]/div[1]/div[2]/div/div[2]/i').click()  # 点击选人组件
-    # brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[2]/div[1]/div').click()  # 清空当前选择
-    # brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/input').click()
-    # brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/input').send_keys("第一个")
-    # brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/div[2]/i').click()  # 搜索名字
-    # brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/i').click()  # 选中该人
-    # brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[2]/div[2]/div[1]/div/div/span[2]/i').click()  # 删除该人
-    # brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/i').click()  # 再次选中该人
-    # brower.find_element_by_xpath('/html/body/div[3]/div/div[3]/div[1]').click()  # 保存设置
-    # # brower.find_element_by_xpath('/html/body/div[3]/div/div[3]/div[2]').click() # 取消
+    brower.find_element_by_xpath('//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[2]/div/div[2]/div/div[2]/i').click()  # 选择指定范围
+    brower.find_element_by_xpath('//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[3]/div[1]/div[2]/div/div[2]/i').click()  # 点击选人组件
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[2]/div[1]/div').click()  # 清空当前选择
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/input').click()
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/input').send_keys("第一个")
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/div[2]/i').click()  # 搜索名字
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/i').click()  # 选中该人
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[2]/div[2]/div[1]/div/div/span[2]/i').click()  # 删除该人
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/i').click()  # 再次选中该人
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[3]/div[1]').click()  # 保存设置
+    # brower.find_element_by_xpath('/html/body/div[3]/div/div[3]/div[2]').click() # 取消
     sleep(0.5)
     brower.find_element_by_xpath(
         '//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[6]/div/div[2]/div[1]/i').click()  # 开放时间选择永久
@@ -292,16 +292,16 @@ def editGroup():
     brower.find_element_by_xpath('//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[1]/div[1]/div[2]/div/input').click()
     brower.find_element_by_xpath('//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[1]/div[1]/div[2]/div/input').send_keys(random.randint(10000,99999))
     brower.find_element_by_xpath('//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[2]/div/div[2]/div/div[1]/i').click()    # 选择全员
-    # brower.find_element_by_xpath('//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[2]/div/div[2]/div/div[2]/i').click()    # 选择指定范围
-    # brower.find_element_by_xpath('//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[3]/div[1]/div[2]/div/div[2]/i').click() # 点击选人组件
-    # brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[2]/div[1]/div').click()  # 清空当前选择
-    # brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/input').click()
-    # brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/input').send_keys("第一个")
-    # brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/div[2]/i').click()  # 搜索名字
-    # brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/i').click()  # 选中该人
-    # brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[2]/div[2]/div[1]/div/div/span[2]/i').click() # 删除该人
-    # brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/i').click()  # 再次选中该人
-    # # brower.find_element_by_xpath('/html/body/div[3]/div/div[3]/div[1]').click() # 保存设置
+    brower.find_element_by_xpath('//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[2]/div/div[2]/div/div[2]/i').click()    # 选择指定范围
+    brower.find_element_by_xpath('//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[3]/div[1]/div[2]/div/div[2]/i').click() # 点击选人组件
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[2]/div[1]/div').click()  # 清空当前选择
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/input').click()
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/input').send_keys("第一个")
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/div[2]/i').click()  # 搜索名字
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/i').click()  # 选中该人
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[2]/div[2]/div[1]/div/div/span[2]/i').click() # 删除该人
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/i').click()  # 再次选中该人
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[3]/div[1]').click() # 保存设置
     # brower.find_element_by_xpath('/html/body/div[3]/div/div[3]/div[2]').click() # 取消
     sleep(1)
     brower.find_element_by_xpath('//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[6]/div/div[2]/div[1]/i').click() # 开放时间选择永久
