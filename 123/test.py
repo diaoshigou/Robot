@@ -137,12 +137,13 @@ def creatOrg():
             '/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div[1]/div/div[2]/div[1]/div[2]/div/div[1]/span').click()  # 点击跳转选择机构所在地址
         brower.find_element_by_xpath('//*[@id="search-input"]').click()  # 聚焦光标在地址输入框
         brower.find_element_by_xpath('//*[@id="search-input"]').send_keys("北京")  # 地址输入框输入地址
+        sleep(2)
         try:
             element = WebDriverWait(brower, 5).until(
                 EC.presence_of_element_located((By.XPATH, '//*[@id="amap-sug1"]')))  # 等待直到搜索元素显示
         finally:
             brower.find_element_by_xpath('//*[@id="amap-sug1"]').click()  # 点击某一元素
-        sleep(2)
+        sleep(3)
         brower.find_element_by_xpath(
             '/html/body/div[1]/div[1]/div[2]/div/div/div[2]/div/div[2]/div[2]/div[1]/div/div/div[1]/ul/li[1]/div[1]').click()  # 点击某一选项地址
         brower.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div/div/div[3]/div/div[1]').click()  # 保存地址
@@ -156,7 +157,7 @@ def creatOrg():
 def deviceConfig():
     # 选择第一个设备
     brower.find_element_by_xpath('/html/body/div[1]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[1]/div[3]/i').click()
-
+    sleep(1)
     # 修改设备名
     brower.find_element_by_xpath(
         '//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[1]/div[1]/div[2]/div/input').click()
@@ -213,13 +214,13 @@ def creatGroup():   # Selenium12345
         '//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[2]/div/div[2]/div/div[1]/i').click()  # 选择全员
     brower.find_element_by_xpath('//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[2]/div/div[2]/div/div[2]/i').click()  # 选择指定范围
     brower.find_element_by_xpath('//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[3]/div[1]/div[2]/div/div[2]/i').click()  # 点击选人组件
-    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[2]/div[1]/div').click()  # 清空当前选择
-    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/input').click()
-    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/input').send_keys("第一个")
-    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/div[2]/i').click()  # 搜索名字
-    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/i').click()  # 选中该人
-    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[2]/div[2]/div[1]/div/div/span[2]/i').click()  # 删除该人
-    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/i').click()  # 再次选中该人
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div[2]/div[1]/div').click()  # 清空当前选择
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div[1]/div[1]/div/div[1]/input').click()
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div[1]/div[1]/div/div[1]/input').send_keys("第一个")
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div[1]/div[1]/div/div[1]/div[2]/i').click()  # 搜索名字
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div[1]/div[3]/div[1]/div/div[2]/div/i').click()  # 选中该人
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div[2]/div[2]/div[1]/div/div/span[2]/i').click()  # 删除该人
+    brower.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div[1]/div[3]/div[1]/div/div[2]/div/i').click()  # 再次选中该人
     brower.find_element_by_xpath('/html/body/div[3]/div/div[3]/div[1]').click()  # 保存设置
     # brower.find_element_by_xpath('/html/body/div[3]/div/div[3]/div[2]').click() # 取消
     sleep(0.5)
@@ -229,50 +230,50 @@ def creatGroup():   # Selenium12345
         '//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[4]/div/div[2]/div/div[2]/i').click()  # 开放时间选择指定时间
     brower.find_element_by_xpath(
         '//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[5]/div[1]/div[2]/div/div[1]/div[2]/input').click()  # 点击开始时间
-    brower.find_element_by_xpath('/html/body/div[5]/div[1]/div/div[1]/div[1]/ul/li[16]').click()  # 开始时间选择15时
+    brower.find_element_by_xpath('/html/body/div[4]/div[1]/div/div[1]/div[1]/ul/li[16]').click()  # 开始时间选择15时
     sleep(0.5)
-    brower.find_element_by_xpath('/html/body/div[5]/div[2]/button[2]').click()  # 确定
+    brower.find_element_by_xpath('/html/body/div[4]/div[2]/button[2]').click()  # 确定
 
     brower.find_element_by_xpath(
         '//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[5]/div[1]/div[2]/div/div[3]/div[2]/input').click()  # 点击结束时间
-    brower.find_element_by_xpath('/html/body/div[6]/div[1]/div/div[1]/div[1]/ul/li[19]').click()  # 结束时间选择18时
+    brower.find_element_by_xpath('/html/body/div[5]/div[1]/div/div[1]/div[1]/ul/li[19]').click()  # 结束时间选择18时
     sleep(0.5)
-    brower.find_element_by_xpath('/html/body/div[6]/div[2]/button[2]').click()  # 确定结束时间
+    brower.find_element_by_xpath('/html/body/div[5]/div[2]/button[2]').click()  # 确定结束时间
     brower.find_element_by_xpath(
         '//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[6]/div/div[2]/div[1]/i').click()  # 开放周期选择永久
     brower.find_element_by_xpath(
         '//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[6]/div/div[2]/div[2]/i').click()  # 开放时间选择指定周期
     brower.find_element_by_xpath(
         '//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[8]/div[1]/div[2]/div/div[1]/div[2]/input').click()  # 点击开始日期
-    brower.find_element_by_xpath('/html/body/div[7]/div[1]/div/div[2]/table[1]/tbody/tr[7]/td[1]').click()  # 开始日期选择29号
+    brower.find_element_by_xpath('/html/body/div[6]/div[1]/div/div[2]/table[1]/tbody/tr[7]/td[1]/div/span').click()  # 开始日期选择29号
     brower.find_element_by_xpath(
         '//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[8]/div[1]/div[2]/div/div[3]/div[2]/input').click()  # 点击结束日期
     sleep(0.5)
-    brower.find_element_by_xpath('/html/body/div[8]/div[1]/div/div[2]/table[1]/tbody/tr[7]/td[2]').click()  # 结束时间选择30号
+    brower.find_element_by_xpath('/html/body/div[7]/div[1]/div/div[2]/table[1]/tbody/tr[7]/td[7]/div/span').click()  # 结束时间选择30号
     brower.find_element_by_xpath(
         '//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[9]/div/div[2]/div/div[4]/i').click()  # 取消周四
     brower.find_element_by_xpath(
         '//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[11]/div/div[2]/div/div[2]/i').click()  # 打开选择设备界面
     sleep(1)
-    brower.find_element_by_xpath('/html/body/div[4]/div/div[2]/div/div/div[2]/div[1]/div/span').click()  # 清空设备选择
+    brower.find_element_by_xpath('/html/body/div[8]/div/div[2]/div/div[2]/div[1]/div').click()  # 清空设备选择
     brower.find_element_by_xpath(
-        '/html/body/div[4]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/input').click()  # 聚焦筛选输入框
+        '/html/body/div[8]/div/div[2]/div/div[1]/div[1]/div/div[1]/input').click()  # 聚焦筛选输入框
 
     brower.find_element_by_xpath(
-        '/html/body/div[4]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/input').click()  # 聚焦筛选输入框
-    brower.find_element_by_xpath('/html/body/div[4]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/input').send_keys(
-        "1")  # 筛选带'门禁机'的设备名称
+        '/html/body/div[8]/div/div[2]/div/div[1]/div[1]/div/div[1]/input').click()  # 聚焦筛选输入框
+    brower.find_element_by_xpath('/html/body/div[8]/div/div[2]/div/div[1]/div[1]/div/div[1]/input').send_keys(
+        "门禁机")  # 筛选带'门禁机'的设备名称
     brower.find_element_by_xpath(
-        '/html/body/div[4]/div/div[2]/div/div/div[1]/div[1]/div/div[1]/div[2]/i').click()  # 开始筛选
+        '/html/body/div[8]/div/div[2]/div/div[1]/div[1]/div/div[1]/div[2]/i').click()  # 开始筛选
     sleep(0.5)
     brower.find_element_by_xpath(
-        '/html/body/div[4]/div/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/span[2]/i[1]').click()  # 选择第一个设备
+        '/html/body/div[8]/div/div[2]/div/div[1]/div[2]/div[1]/div[1]/span[2]/div/i').click()  # 选择第一个设备
     brower.find_element_by_xpath(
-        '/html/body/div[4]/div/div[2]/div/div/div[2]/div[2]/div[1]/div/span[2]/i').click()  # 删除选择设备
+        '/html/body/div[8]/div/div[2]/div/div[2]/div[2]/div[1]/div/span[2]/i').click()  # 删除选择设备
     brower.find_element_by_xpath(
-        '/html/body/div[4]/div/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/span[2]/i[1]').click()  # 再次选择第一个设备
-    brower.find_element_by_xpath('/html/body/div[4]/div/div[3]/div[1]').click()  # 确认
-    # brower.find_element_by_xpath('/html/body/div[4]/div/div[3]/div[2]').click() # 取消
+        '/html/body/div[8]/div/div[2]/div/div[1]/div[2]/div[1]/div[1]/span[2]/div/i').click()  # 再次选择第一个设备
+    brower.find_element_by_xpath('/html/body/div[8]/div/div[3]/div[1]').click()  # 确认
+    # brower.find_element_by_xpath('/html/body/div[8]/div/div[3]/div[2]').click() # 取消
     sleep(0.5)
     brower.find_element_by_xpath(
         '//*[@id="app"]/div[1]/div[3]/div[2]/div/div[2]/div[1]/div/div[12]/div/div[2]/div/i').click()  # 设为默认组
@@ -382,7 +383,7 @@ def deleteGroup():
 brower.find_element_by_xpath('/html/body/div[1]/div[1]/div/div[2]/div[3]/div/div[2]/div/input').click() # 聚焦手机号码输入框
 brower.find_element_by_xpath('/html/body/div[1]/div[1]/div/div[2]/div[3]/div/div[2]/div/input').send_keys('18368387155')
 brower.find_element_by_xpath('/html/body/div[1]/div[1]/div/div[2]/div[4]/div/div[2]/div/input').click()
-brower.find_element_by_xpath('/html/body/div[1]/div[1]/div/div[2]/div[4]/div/div[2]/div/input').send_keys('Md123456')
+brower.find_element_by_xpath('/html/body/div[1]/div[1]/div/div[2]/div[4]/div/div[2]/div/input').send_keys('Md1234567890')
 brower.find_element_by_xpath('/html/body/div[1]/div[1]/div/div[2]/div[5]/div').click()  # 点击登陆
 print("1、登陆成功")
 
