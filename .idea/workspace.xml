@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/123/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/123/geckodriver.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/123/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/123/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/123/test1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +14,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Robot$test.coverage" NAME="test Coverage Results" MODIFIED="1569598084071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
+    <SUITE FILE_PATH="coverage/Robot$test.coverage" NAME="test Coverage Results" MODIFIED="1569746223016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
     <SUITE FILE_PATH="coverage/Robot$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1568212131168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
     <SUITE FILE_PATH="coverage/Robot$Unittests_for_test_LearnElement.coverage" NAME="Unittests for test.LearnElement Coverage Results" MODIFIED="1568212104368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
-    <SUITE FILE_PATH="coverage/Robot$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1569478567045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
+    <SUITE FILE_PATH="coverage/Robot$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1569745595618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
     <SUITE FILE_PATH="coverage/Robot$123.coverage" NAME="123 Coverage Results" MODIFIED="1569292037627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -33,16 +34,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/123/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="240" column="88" lean-forward="true" selection-start-line="240" selection-start-column="88" selection-end-line="240" selection-end-column="88" />
+            <state relative-caret-position="173">
+              <caret line="369" column="18" lean-forward="true" selection-start-line="369" selection-start-column="18" selection-end-line="369" selection-end-column="18" />
               <folding>
+                <element signature="e#0#13#0" expanded="true" />
                 <element signature="e#400#2951#0" />
                 <element signature="e#2981#4317#0" />
                 <element signature="e#4346#4899#0" />
-                <element signature="e#4929#7630#0" />
-                <element signature="e#7668#10020#0" />
-                <element signature="e#16084#22659#0" />
-                <element signature="e#22704#24065#0" />
+                <element signature="e#4929#7647#0" />
+                <element signature="e#7685#10049#0" />
+                <element signature="e#10111#16039#0" />
+                <element signature="e#16073#23461#0" />
               </folding>
             </state>
           </provider>
@@ -51,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/123/test1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="425">
+              <caret line="119" column="119" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="119" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -94,7 +96,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,6 +112,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,7 +272,8 @@
       <workItem from="1569375686142" duration="12861000" />
       <workItem from="1569476455536" duration="4996000" />
       <workItem from="1569571011980" duration="625000" />
-      <workItem from="1569595718607" duration="1995000" />
+      <workItem from="1569595718607" duration="2258000" />
+      <workItem from="1569739694499" duration="5207000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1565349111650</created>
@@ -391,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569573015217</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="测试提交">
+      <created>1569598413686</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1569598413686</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -403,18 +413,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61335000" />
+    <option name="totallyTimeSpent" value="66805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3001066" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3033049" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.32725322" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -458,10 +469,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Anaconda3/envs/hello/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="393" selection-start-line="393" selection-end-line="393" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Anaconda3/envs/hello/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/123/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="425">
+          <caret line="119" column="119" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="119" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -470,16 +495,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/123/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="240" column="88" lean-forward="true" selection-start-line="240" selection-start-column="88" selection-end-line="240" selection-end-column="88" />
+        <state relative-caret-position="173">
+          <caret line="369" column="18" lean-forward="true" selection-start-line="369" selection-start-column="18" selection-end-line="369" selection-end-column="18" />
           <folding>
+            <element signature="e#0#13#0" expanded="true" />
             <element signature="e#400#2951#0" />
             <element signature="e#2981#4317#0" />
             <element signature="e#4346#4899#0" />
-            <element signature="e#4929#7630#0" />
-            <element signature="e#7668#10020#0" />
-            <element signature="e#16084#22659#0" />
-            <element signature="e#22704#24065#0" />
+            <element signature="e#4929#7647#0" />
+            <element signature="e#7685#10049#0" />
+            <element signature="e#10111#16039#0" />
+            <element signature="e#16073#23461#0" />
           </folding>
         </state>
       </provider>
