@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00068d9c-2e84-4e46-bfae-9a977462a0e3" name="Default" comment="跳过识别记录，先测试报警记录">
+    <list default="true" id="00068d9c-2e84-4e46-bfae-9a977462a0e3" name="Default" comment="阶段性同步">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/123/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/123/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/123/test1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,37 +14,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Robot$test.coverage" NAME="test Coverage Results" MODIFIED="1570521757711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
+    <SUITE FILE_PATH="coverage/Robot$test.coverage" NAME="test Coverage Results" MODIFIED="1574073535230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
     <SUITE FILE_PATH="coverage/Robot$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1568212131168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
     <SUITE FILE_PATH="coverage/Robot$Unittests_for_test_LearnElement.coverage" NAME="Unittests for test.LearnElement Coverage Results" MODIFIED="1568212104368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
-    <SUITE FILE_PATH="coverage/Robot$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1570537684309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
+    <SUITE FILE_PATH="coverage/Robot$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1574073439274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/123" />
     <SUITE FILE_PATH="coverage/Robot$123.coverage" NAME="123 Coverage Results" MODIFIED="1569292037627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/123/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="299" column="118" selection-start-line="299" selection-start-column="118" selection-end-line="299" selection-end-column="118" />
+            <state relative-caret-position="211">
+              <caret line="156" column="4" selection-start-line="156" selection-start-column="4" selection-end-line="156" selection-end-column="4" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <element signature="e#400#2951#0" />
                 <element signature="e#2981#4317#0" />
                 <element signature="e#4346#4899#0" />
                 <element signature="e#4929#7647#0" />
-                <element signature="e#7685#10067#0" />
                 <element signature="e#10129#16057#0" />
+                <element signature="e#16088#23525#0" />
+                <element signature="e#23570#25193#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/123/test1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="112" selection-start-line="18" selection-start-column="112" selection-end-line="18" selection-end-column="112" />
+            <state relative-caret-position="-152">
+              <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -67,9 +71,9 @@
         <option value="$PROJECT_DIR$/TestRobot/baidu.robot" />
         <option value="$PROJECT_DIR$/TestRobot/test.py" />
         <option value="$PROJECT_DIR$/123.py" />
-        <option value="$PROJECT_DIR$/123/test.py" />
-        <option value="$PROJECT_DIR$/123/test1.py" />
         <option value="$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/123/test1.py" />
+        <option value="$PROJECT_DIR$/123/test.py" />
       </list>
     </option>
   </component>
@@ -84,8 +88,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Robot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Robot" type="462c0819:PsiDirectoryNode" />
+              <item name="123" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -105,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test1">
+  <component name="RunManager" selected="Python.test">
     <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Robot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,8 +230,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test1" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.test1" />
         <item itemvalue="Python.123" />
         <item itemvalue="Python tests.Unittests in test.py" />
         <item itemvalue="Python tests.Unittests for test.LearnElement" />
@@ -254,6 +273,10 @@
       <workItem from="1571025162334" duration="3042000" />
       <workItem from="1571028453448" duration="107000" />
       <workItem from="1571028610251" duration="60000" />
+      <workItem from="1572862408550" duration="103000" />
+      <workItem from="1573105794451" duration="180000" />
+      <workItem from="1573557422524" duration="317000" />
+      <workItem from="1574073326240" duration="280000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1565349111650</created>
@@ -402,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570537754621</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="阶段性同步">
+      <created>1572862485576</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1572862485576</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -414,17 +444,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79134000" />
+    <option name="totallyTimeSpent" value="80014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3304904" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34541577" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" weight="0.26502147" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.26502147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33154505" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -450,7 +481,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试提交" />
     <MESSAGE value="跳过识别记录，先测试报警记录" />
-    <option name="LAST_COMMIT_MESSAGE" value="跳过识别记录，先测试报警记录" />
+    <MESSAGE value="阶段性同步" />
+    <option name="LAST_COMMIT_MESSAGE" value="阶段性同步" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TestRobot/baidu.robot" />
@@ -491,22 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/123/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="299" column="118" selection-start-line="299" selection-start-column="118" selection-end-line="299" selection-end-column="118" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#400#2951#0" />
-            <element signature="e#2981#4317#0" />
-            <element signature="e#4346#4899#0" />
-            <element signature="e#4929#7647#0" />
-            <element signature="e#7685#10067#0" />
-            <element signature="e#10129#16057#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -516,10 +532,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/123/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="112" selection-start-line="18" selection-start-column="112" selection-end-line="18" selection-end-column="112" />
+        <state relative-caret-position="-152">
+          <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/123/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="156" column="4" selection-start-line="156" selection-start-column="4" selection-end-line="156" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#400#2951#0" />
+            <element signature="e#2981#4317#0" />
+            <element signature="e#4346#4899#0" />
+            <element signature="e#4929#7647#0" />
+            <element signature="e#10129#16057#0" />
+            <element signature="e#16088#23525#0" />
+            <element signature="e#23570#25193#0" />
           </folding>
         </state>
       </provider>
